@@ -1,0 +1,19 @@
+// First enumeration.
+MOVS r0, #0
+MOVS r1, #1
+MOVS r2, #2
+MOVS r3, #3
+MOVS r4, #4
+MOVS r5, #5
+MOVS r6, #6
+MOVS r7, #7
+
+// Second enumeration.
+MOVS r0, #248
+MOVS r1, #249
+MOVS r2, #250
+MOVS r3, #251
+MOVS r4, #252
+MOVS r5, #253
+MOVS r6, #254
+MOVS r7, #255
