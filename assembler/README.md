@@ -55,3 +55,10 @@ pip3 install -r requirements.txt
 ```bash
 ./checker.py
 ```
+
+## Contributors
+
+- [João Brilhante](https://github.com/JoaoBrlt)
+- [Olivier Doussaud](https://github.com/Dawwen)
+- [Etienne Beguier](https://github.com/EtienneBEGUIER)
+- [Martin Bouteiller](https://github.com/mbouteiller)

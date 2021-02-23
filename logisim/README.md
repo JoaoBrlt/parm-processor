@@ -82,3 +82,10 @@ java -jar logisim-evolution.jar
 7. Compare the generated chronogram with the expected one.
 
 `Load file` > [`Select logisim/tests/chronograms/expected/file.txt`](tests/chronograms/expected)
+
+## Contributors
+
+- [João Brilhante](https://github.com/JoaoBrlt)
+- [Olivier Doussaud](https://github.com/Dawwen)
+- [Etienne Beguier](https://github.com/EtienneBEGUIER)
+- [Martin Bouteiller](https://github.com/mbouteiller)
