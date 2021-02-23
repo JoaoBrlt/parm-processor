@@ -1,12 +1,13 @@
-# Logisim simulation
+# Simulation
 
-The processor simulation project.
+The processor simulation.
 
 ## Requirements
 
 1. Install [Java SE 8 or higher](https://www.oracle.com/fr/java/technologies/javase-downloads.html).
+
 2. Download [Logisim Evolution 2.15.0](https://github.com/reds-heig/logisim-evolution/releases/tag/v2.15.0).
-   
+
 ## Run 
 
 1. Run Logisim Evolution.

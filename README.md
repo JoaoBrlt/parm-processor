@@ -14,8 +14,8 @@ The goal of this project is to simulate the behavior of a Cortex-M0 using an ele
 
 | Name                                         | Description                                 |
 |----------------------------------------------|---------------------------------------------|
-| [Simulation](logisim/README.md)      | Use the processor simulation project.       |
-| [Assembler](assembler/README.md)        | Use the custom assembler for the processor. |
+| [Simulation](logisim/README.md)      | The processor simulation.       |
+| [Assembler](assembler/README.md)        | The assembler for the simulated processor. |
 
 ## Contributors
 
