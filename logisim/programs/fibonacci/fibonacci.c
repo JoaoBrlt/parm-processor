@@ -8,5 +8,6 @@ int main() {
         first = second;
         second = tmp;
     }
+
     return 0;
 }

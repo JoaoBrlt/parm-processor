@@ -8,7 +8,7 @@
 	.eabi_attribute 30, 6
 	.eabi_attribute 34, 1
 	.eabi_attribute 18, 4
-	.file	"factoriel.c"
+	.file	"factorial.c"
 	.text
 	.align	1
 	.global	main
@@ -18,37 +18,35 @@
 	.fpu softvfp
 	.type	main, %function
 main:
-	@ args = 0, pretend = 0, frame = 24
+	@ args = 0, pretend = 0, frame = 16
 	@ frame_needed = 0, uses_anonymous_args = 0
 	@ link register save eliminated.
-	sub	sp, sp, #24
-	str	r0, [sp, #4]
-	str	r1, [sp]
+	sub	sp, sp, #16
 	movs	r3, #5
+	str	r3, [sp, #4]
+	movs	r3, #1
 	str	r3, [sp, #12]
 	movs	r3, #1
-	str	r3, [sp, #20]
-	movs	r3, #1
-	str	r3, [sp, #16]
+	str	r3, [sp, #8]
 	b	.L2
 .L3:
-	ldr	r3, [sp, #20]
-	ldr	r2, [sp, #16]
-	mul	r3, r2, r3
-	str	r3, [sp, #20]
-	ldr	r3, [sp, #16]
-	adds	r3, r3, #1
-	str	r3, [sp, #16]
-.L2:
-	ldr	r2, [sp, #16]
 	ldr	r3, [sp, #12]
+	ldr	r2, [sp, #8]
+	mul	r3, r2, r3
+	str	r3, [sp, #12]
+	ldr	r3, [sp, #8]
+	adds	r3, r3, #1
+	str	r3, [sp, #8]
+.L2:
+	ldr	r2, [sp, #8]
+	ldr	r3, [sp, #4]
 	cmp	r2, r3
 	ble	.L3
 	movs	r3, #0
 	mov	r0, r3
-	add	sp, sp, #24
+	add	sp, sp, #16
 	@ sp needed
 	bx	lr
 	.size	main, .-main
-	.ident	"GCC: (GNU) 9.2.0"
+	.ident	"GCC: (GNU) 9.3.0"
 	.section	.note.GNU-stack,"",%progbits
