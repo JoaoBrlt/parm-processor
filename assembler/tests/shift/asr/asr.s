@@ -57,15 +57,3 @@ ASRS r0, r0, #31
 MOVS r1, #255
 MVNS r1, r1
 ASRS r1, r1, #31
-
-// Positive shift itself by over maximum.
-// 11111111 >> 00000 = ...11111111
-MOVS r2, #255
-ASRS r2, r2, #32
-
-// Negative shift itself by over maximum.
-// 11111111 11111111 11111111 00000000 >> 00000 =
-// 11111111 11111111 11111111 00000000
-MOVS r3, #255
-MVNS r3, r3
-ASRS r3, r3, #32

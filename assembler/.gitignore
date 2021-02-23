@@ -1,0 +1,12 @@
+# IDE folders.
+.idea/
+
+# Virtual env.
+venv/
+
+# Cache folder.
+__pycache__/
+
+# Yacc results.
+parser.out
+parsetab.py
