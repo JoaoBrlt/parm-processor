@@ -33,18 +33,6 @@ class Assembler:
 		return vars(argument_parser.parse_args())
 
 	@staticmethod
-	def __replace_extension(file_path, extension):
-		"""
-		Replaces the extension of a file.
-
-		:param file_path: The file path to modify.
-		:param extension: The new extension.
-		:return: The new file path.
-		"""
-
-		return os.path.splitext(file_path)[0] + "." + extension
-
-	@staticmethod
 	def assemble(input_path: str, output_path: str):
 		"""
 		Assembles a program.
