@@ -10,7 +10,7 @@
 
 The goal of this project is to simulate the behavior of a Cortex-M0 using an electronic simulation software: Logisim Evolution. The idea here is to obtain a system having a behavior similar to a Cortex-M0 and not a true copy because of the complexity of a real processor.
 
-<img src="docs/images/polytech-arm.png" width="400" alt="Polytech ARM-based embedded processor"/>
+<img src="docs/images/polytech-arm.png" width="500" alt="Polytech ARM-based embedded processor"/>
 
 ## Usage
 

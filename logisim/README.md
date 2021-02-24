@@ -2,7 +2,7 @@
 
 The processor simulation.
 
-<img src="../docs/images/polytech-arm.png" width="400" alt="Polytech ARM-based embedded processor"/>
+<img src="../docs/images/polytech-arm.png" width="500" alt="Polytech ARM-based embedded processor"/>
 
 ## Requirements
 
