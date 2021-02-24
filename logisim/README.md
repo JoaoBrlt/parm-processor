@@ -2,6 +2,8 @@
 
 The processor simulation.
 
+<img src="../docs/images/polytech-arm.png" width="400" alt="Polytech ARM-based embedded processor"/>
+
 ## Requirements
 
 1. Install [Java SE 8 or higher](https://www.oracle.com/fr/java/technologies/javase-downloads.html).
