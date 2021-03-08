@@ -19,7 +19,7 @@ The goal of this project is to simulate the behavior of a Cortex-M0 using an ele
 | [Simulation](logisim)  | The processor simulation.                  |
 | [Assembler](assembler) | The assembler for the simulated processor. |
 
-## Contributors
+## Authors
 
 - [João Brilhante](https://github.com/JoaoBrlt)
 - [Olivier Doussaud](https://github.com/Dawwen)
