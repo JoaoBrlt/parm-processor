@@ -4,7 +4,7 @@
 
 **Supervisors :** N. Bounouas, P. E. Novac, B. Miramond
 
-**Date :** November 2019
+**Date :** November 2019 - January 2020
 
 ## Description
 
