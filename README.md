@@ -1,10 +1,10 @@
 # Polytech ARM-based embedded processor
 
-**Course :** Architecture and networks
+**Course:** Architecture and networks
 
-**Supervisors :** N. Bounouas, P. E. Novac, B. Miramond
+**Supervisors:** N. Bounouas, P. E. Novac, B. Miramond
 
-**Date :** November 2019 - January 2020
+**Date:** November 2019 - January 2020
 
 ## Description
 
